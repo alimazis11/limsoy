@@ -1,10 +1,10 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import './App.css'
 
-const ALLOWED_NAME = 'ain'  // ubah ini untuk nama/password login nanti
+const ALLOWED_NAME = 'amel'  // ubah ini untuk nama/password login nanti
 
-const HER_NAME = 'Ain'  // ubah ini untuk nama dia
-const YOUR_NAME = 'Alim'  // ubah ini untuk nama kamu
+const HER_NAME = 'Amel'  // ubah ini untuk nama dia
+const YOUR_NAME = 'Clayton Puqi'  // ubah ini untuk nama kamu
 const FOOTER_YEAR = '2025'  // ubah ini untuk tahun footer
 
 const HERO_MESSAGE = `There are so many things I want to tell you, but I never found the right moment.
