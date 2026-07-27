@@ -1,0 +1,38 @@
+:root {
+  --paper: #fffaf5;
+  --brown: #764f38;
+  --muted: #7f6c60;
+  --gold: #c9a88a;
+  --cream: #f3e8dc;
+  --script: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --sans: 'Lora', Georgia, serif;
+
+  color: #3d2c24;
+  background: #d9c2ae;
+  font: 16px/1.65 var(--sans);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100svh;
+  margin: 0;
+}
+
+button,
+a,
+input,
+textarea {
+  -webkit-tap-highlight-color: transparent;
+}
